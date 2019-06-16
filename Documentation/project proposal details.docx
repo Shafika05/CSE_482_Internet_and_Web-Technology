@@ -1,1 +1,195 @@
-Project name: Orphanage Management System
+ 
+Department of Electrical and Computer Engineering
+North South University
+Summer 2019
+
+CSE 482 Internet and Web Technology
+Project Proposal
+Section-03
+Group-08
+ Project name: Orphanage Management System
+Submitted To:
+Md Naqib Imtiaz Hussain (Nqh)
+Senior Lecturer, ECE Department
+North South University, Dhaka, Bangladesh
+And 
+Md. Shafiqul Islam
+Lab Officer
+North South University, Dhaka, Bangladesh
+Submitted By:
+	Shafika Islam	ID:1610239042
+	Irtifa Sarwath	ID:1610187042
+Table of Contents 
+1. Introduction:	3
+2. User Story:	4
+2.1: Use Case:	4
+3. Architecture:	9
+3.1: Front-end plan	9
+3.2: Back end development	10
+4: Development Plan:	10
+Phase 1	10
+Deliverables:	10
+Phase 2	10
+Deliverables:	10
+Phase N	10
+5: Collaboration Plan:	11
+6. Future plan:	11
+
+
+ 
+1. Introduction: 
+Orphanage management system is a website interconnecting our nation’s NGOs, civil society and orphanages to eradicate the hopeless conditions of the orphanages due to lack of proper communication between donors and receivers and seeking parents. There are a lot of orphanages existing in our country at this current time and there are a lot of eager parents and donors to help these orphanages prosper. Orphanage management system is the platform where these two parties with a mutual interest meet and take conclusive decisions to reach their desired goals in an effective and authentic manner.
+So this is a website where people can find their necessary information together.
+This is website based project so that interested people about orphanage so that they do not need to browse dozens of website .Sometimes they don’t even find the right information .For them this website is a very good option.
+For this, we will collect data from real orphanage owner and update our information page. Interested parents will go through the information and policies about adoption and donation. So that they may get easily adaption details. Their information will all hide and only the orphanage owner will see this.
+
+2. User Story:
+2.1: Use Case: 
+
+
+
+2.2: Use case descriptions:
+Use Case Name: Sign Up
+Primary Actor: Manager of Orphanage Institutes, Verification Authorities.
+Preconditions: All the actors have to get access and fill up the form.
+Post Conditions: Actors are signed up in the system and view requests.
+Main Success Scenario:
+•	All the primary actors are able to fill up the form defined by the system.
+•	The form contains some specific attributes defined by the system such as Name, Email Address etc.
+•	All sections of the form will be mandatory.
+•	Without filling the mandatory parts of the form, no one is able to submit the form.
+Extensions:
+•	If an invalid input is given in the form, such as wrong Email-address or phone number, an error will pop up in the system.
+•	The system will notify the user to enter the correct information.
+Special Requirements:
+•	For strong authentication, NID number is obligatory to fill up the form and submit.
+
+Use Case Name: Log In
+Primary Actor: Manager of Orphanage Institutes, Verification Authorities.
+Preconditions: Actors have to fill up registration form.
+Post Conditions: Registered actors have the access to log in to their profile dashboard.
+
+Main Success Scenario:
+•	All the registered actors can log into the system.
+•	Orphanage Institutes’ manager and Verification authority can view adoption and donation request.
+•	Orphanage Institutes’ manager and Verification authority can communicate among each other for adoption and donation.
+Extensions:
+•	If any registered entity cannot log in, he/she/they have to contact with admin.
+•	If anyone forgets his/her password and cannot log in for that He has to click on ‘help’.
+•	After clicking to get help, they will get the one time recovery password.
+Special Requirements: 
+•	User must get access to their account within 50 seconds after clicking on ‘Log In’.
+
+Use Case Name: Donation
+Primary Actor: Donor
+Post Conditions: Donor can request to donate to orphanage via the system.
+Main Success scenario:
+•	The donor fill up the donation from.
+•	The donors can donate in three categories- monthly, yearly or random.
+•	Monthly donors contribute their amounts in monthly basis.
+•	Yearly donors contribute their amounts in yearly basis.
+•	Random donors can contribute their amounts at any time.
+•	The amount of donation is totally up to the donors themselves, regardless their category.
+
+Use case name: Manage the orphan institute
+Primary Actor: Manager
+Precondition: The manager is responsible for the orphanage institution account. The manager is answerable for logging in the institution profile.
+Post condition: Manager can receive donation on behalf of his/her orphanage institute. Manager can complete the adoption process.
+Main Success scenario:
+•	The manager can view adoption request from eager parents.
+•	The manager can view donation request from donor.
+•	The manager can send adoption and donation request to verification authority.
+
+Use Case Name: Verify
+Primary Actor: Verification authority
+Preconditions: Verification authority is identified and authenticated.
+Post Conditions: All the requests are gone through the verification process.
+Main Success Scenario:
+•	The verification authority has access to all the forms filled up by the
+•	Eager parents and Donor.
+•	Verification authority will check and scrutiny all the requirements.
+•	The authority verifies the individuals after checking the request form.
+Extensions:
+•	If admin of the system finds any problem in verification authority, or for any reason if there is lack of authority to verify, admin will manage the procedure of verification.
+
+
+Special Requirements:
+•	Authority must be eligible, loyal and responsible.
+•	In the verification procedure, authority must maintain transparency.
+
+Use case name: Present the institute details
+Primary Actor: Orphanage institute
+Precondition: The orphanage institute have to send their orphanage’s detail to website developer.
+Main Success scenario:
+•	The orphanage will be able to present in details their description including their specialty, vision and goals attracting eager parents and donors to fund their institution.
+
+Use case name: Present the orphans’ details.
+Primary Actor: Orphanage Institution
+Precondition: The orphanage institute have to send their orphans’ detail to website developer.
+Main Success scenario:
+•	The orphanage will be able to enter portfolio of all the children and therefore make it possible for eager parents to see the children for the first time.
+Extension:
+•	The orphanage can change the details of their orphans anytime.
+
+
+
+
+Use Case Name: Adopt Orphan
+Primary Actor: Eager parents
+Post Conditions: Eager parents can request to adopt the children via the system.
+Main Success Scenario:
+•	Parents can view Orphanage Institute details.
+•	Parents can view Orphans details.
+•	Parents can fill up adoption form.
+Extensions:
+•	If any one of the eager parents (father or mother) is not available, another one can also use the system and adopt after fulfilling all the requirements as well as authentication.
+Special Requirements:
+•	Parents must be mentally and financially stable and strong enough to adopt a child; which will be highly scrutinized via the authority.
+3. Architecture: 
+In this project we will use html, css, php, MySQL for database. And this is a total web based project so that all the info that will provide the user will save on our database directly. User can not able to see any other person’s or user information. There are 2 types of register. One is admin another is orphanage owner. Orphanage owner can see the interested parents provided information. Donor’s information can see the admin. The rest development need more advanced code and authorizations.  
+3.1: Front-end plan
+	Home
+	About
+	Details
+	Authority
+	Donation
+	Register
+	Log In 
+	Adoption from
+	Contact us
+3.2: Back end development
+	Donation from
+	Register
+	Adoption form
+	MySQL Database
+
+4: Development Plan: 
+Phase 1
+Duration: It will take maximum 9 to 10 weeks to complete the project. We will try to finish it in our deadlines.  
+Deliverables: 
+At the end of the project user will able to access the website. We will try to develop it and make it better expectable. At the end of 19 August 2019 we will finish our work and make the website more responsive also.
+Phase 2
+We will try to fix the problems (if occurs any) and we will make sure that the donation system will be easier for the donors and we will try to add running payment system in our website. 
+Deliverables:
+Optimized performance tuned site. 
+Phase N
+Phase 1 and Phase 2 will help deciding goals and expectation from the next phases. We will try to make it a mobile version in future so that people can excess it as a mobile application. Though that will require more time, resources, experienced team members and etc. 
+
+
+5: Collaboration Plan:
+		
+Tasks 	Schedule	Member1	Member2
+Home page create	Ongoing 	SI	I
+Log In page	Upcoming Thursday		IS
+Registration Page	Upcoming Sunday	SI	
+Adoption Form	Within 28 June		IS
+Donation Form 	Within 28 June	SI	
+Footer 	Within 1 July	SI	
+About US 	Within 1 July		IS
+Database connection 	as per need	SI	IS
+
+
+
+6. Future plan: 
+In future, we will try to make a mobile application version of this project. Also we will try to make sure to add more details data of the orphanages institutions all over our country. So that we can preset this project as an economic platform and also research on it. But that will take more time and also good enough resources and a worthy experienced team to grow this up. 
+
